@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF20D4D01EFD15A700C167DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF20D4CF1EFD15A700C167DA /* AppDelegate.swift */; };
+		AF20D4D21EFD15A700C167DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF20D4D11EFD15A700C167DA /* ViewController.swift */; };
+		AF20D4D51EFD15A700C167DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF20D4D31EFD15A700C167DA /* Main.storyboard */; };
+		AF20D4D71EFD15A700C167DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF20D4D61EFD15A700C167DA /* Assets.xcassets */; };
+		AF20D4DA1EFD15A700C167DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF20D4D81EFD15A700C167DA /* LaunchScreen.storyboard */; };
+		AF20D4E51EFD15A700C167DA /* SmartGOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF20D4E41EFD15A700C167DA /* SmartGOTests.swift */; };
+		AF20D4F01EFD15A700C167DA /* SmartGOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF20D4EF1EFD15A700C167DA /* SmartGOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF20D4E11EFD15A700C167DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF20D4C41EFD15A700C167DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF20D4CB1EFD15A700C167DA;
+			remoteInfo = SmartGO;
+		};
+		AF20D4EC1EFD15A700C167DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF20D4C41EFD15A700C167DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF20D4CB1EFD15A700C167DA;
+			remoteInfo = SmartGO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF20D4CC1EFD15A700C167DA /* SmartGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF20D4CF1EFD15A700C167DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF20D4D11EFD15A700C167DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF20D4D41EFD15A700C167DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF20D4D61EFD15A700C167DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF20D4D91EFD15A700C167DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF20D4DB1EFD15A700C167DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF20D4E01EFD15A700C167DA /* SmartGOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartGOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF20D4E41EFD15A700C167DA /* SmartGOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGOTests.swift; sourceTree = "<group>"; };
+		AF20D4E61EFD15A700C167DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF20D4EB1EFD15A700C167DA /* SmartGOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartGOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF20D4EF1EFD15A700C167DA /* SmartGOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGOUITests.swift; sourceTree = "<group>"; };
+		AF20D4F11EFD15A700C167DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF20D4C91EFD15A700C167DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF20D4DD1EFD15A700C167DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF20D4E81EFD15A700C167DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF20D4C31EFD15A700C167DA = {
+			isa = PBXGroup;
+			children = (
+				AF20D4CE1EFD15A700C167DA /* SmartGO */,
+				AF20D4E31EFD15A700C167DA /* SmartGOTests */,
+				AF20D4EE1EFD15A700C167DA /* SmartGOUITests */,
+				AF20D4CD1EFD15A700C167DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF20D4CD1EFD15A700C167DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF20D4CC1EFD15A700C167DA /* SmartGO.app */,
+				AF20D4E01EFD15A700C167DA /* SmartGOTests.xctest */,
+				AF20D4EB1EFD15A700C167DA /* SmartGOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF20D4CE1EFD15A700C167DA /* SmartGO */ = {
+			isa = PBXGroup;
+			children = (
+				AF20D4CF1EFD15A700C167DA /* AppDelegate.swift */,
+				AF20D4D11EFD15A700C167DA /* ViewController.swift */,
+				AF20D4D31EFD15A700C167DA /* Main.storyboard */,
+				AF20D4D61EFD15A700C167DA /* Assets.xcassets */,
+				AF20D4D81EFD15A700C167DA /* LaunchScreen.storyboard */,
+				AF20D4DB1EFD15A700C167DA /* Info.plist */,
+			);
+			path = SmartGO;
+			sourceTree = "<group>";
+		};
+		AF20D4E31EFD15A700C167DA /* SmartGOTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF20D4E41EFD15A700C167DA /* SmartGOTests.swift */,
+				AF20D4E61EFD15A700C167DA /* Info.plist */,
+			);
+			path = SmartGOTests;
+			sourceTree = "<group>";
+		};
+		AF20D4EE1EFD15A700C167DA /* SmartGOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF20D4EF1EFD15A700C167DA /* SmartGOUITests.swift */,
+				AF20D4F11EFD15A700C167DA /* Info.plist */,
+			);
+			path = SmartGOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF20D4CB1EFD15A700C167DA /* SmartGO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF20D4F41EFD15A700C167DA /* Build configuration list for PBXNativeTarget "SmartGO" */;
+			buildPhases = (
+				AF20D4C81EFD15A700C167DA /* Sources */,
+				AF20D4C91EFD15A700C167DA /* Frameworks */,
+				AF20D4CA1EFD15A700C167DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartGO;
+			productName = SmartGO;
+			productReference = AF20D4CC1EFD15A700C167DA /* SmartGO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF20D4DF1EFD15A700C167DA /* SmartGOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF20D4F71EFD15A700C167DA /* Build configuration list for PBXNativeTarget "SmartGOTests" */;
+			buildPhases = (
+				AF20D4DC1EFD15A700C167DA /* Sources */,
+				AF20D4DD1EFD15A700C167DA /* Frameworks */,
+				AF20D4DE1EFD15A700C167DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF20D4E21EFD15A700C167DA /* PBXTargetDependency */,
+			);
+			name = SmartGOTests;
+			productName = SmartGOTests;
+			productReference = AF20D4E01EFD15A700C167DA /* SmartGOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF20D4EA1EFD15A700C167DA /* SmartGOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF20D4FA1EFD15A700C167DA /* Build configuration list for PBXNativeTarget "SmartGOUITests" */;
+			buildPhases = (
+				AF20D4E71EFD15A700C167DA /* Sources */,
+				AF20D4E81EFD15A700C167DA /* Frameworks */,
+				AF20D4E91EFD15A700C167DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF20D4ED1EFD15A700C167DA /* PBXTargetDependency */,
+			);
+			name = SmartGOUITests;
+			productName = SmartGOUITests;
+			productReference = AF20D4EB1EFD15A700C167DA /* SmartGOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF20D4C41EFD15A700C167DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "thanh tuan";
+				TargetAttributes = {
+					AF20D4CB1EFD15A700C167DA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3PBLWMD3ZG;
+						ProvisioningStyle = Automatic;
+					};
+					AF20D4DF1EFD15A700C167DA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3PBLWMD3ZG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF20D4CB1EFD15A700C167DA;
+					};
+					AF20D4EA1EFD15A700C167DA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3PBLWMD3ZG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF20D4CB1EFD15A700C167DA;
+					};
+				};
+			};
+			buildConfigurationList = AF20D4C71EFD15A700C167DA /* Build configuration list for PBXProject "SmartGO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF20D4C31EFD15A700C167DA;
+			productRefGroup = AF20D4CD1EFD15A700C167DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF20D4CB1EFD15A700C167DA /* SmartGO */,
+				AF20D4DF1EFD15A700C167DA /* SmartGOTests */,
+				AF20D4EA1EFD15A700C167DA /* SmartGOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF20D4CA1EFD15A700C167DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF20D4DA1EFD15A700C167DA /* LaunchScreen.storyboard in Resources */,
+				AF20D4D71EFD15A700C167DA /* Assets.xcassets in Resources */,
+				AF20D4D51EFD15A700C167DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF20D4DE1EFD15A700C167DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF20D4E91EFD15A700C167DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF20D4C81EFD15A700C167DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF20D4D21EFD15A700C167DA /* ViewController.swift in Sources */,
+				AF20D4D01EFD15A700C167DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF20D4DC1EFD15A700C167DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF20D4E51EFD15A700C167DA /* SmartGOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF20D4E71EFD15A700C167DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF20D4F01EFD15A700C167DA /* SmartGOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF20D4E21EFD15A700C167DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF20D4CB1EFD15A700C167DA /* SmartGO */;
+			targetProxy = AF20D4E11EFD15A700C167DA /* PBXContainerItemProxy */;
+		};
+		AF20D4ED1EFD15A700C167DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF20D4CB1EFD15A700C167DA /* SmartGO */;
+			targetProxy = AF20D4EC1EFD15A700C167DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF20D4D31EFD15A700C167DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF20D4D41EFD15A700C167DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF20D4D81EFD15A700C167DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF20D4D91EFD15A700C167DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF20D4F21EFD15A700C167DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF20D4F31EFD15A700C167DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF20D4F51EFD15A700C167DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3PBLWMD3ZG;
+				INFOPLIST_FILE = SmartGO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.uit.thtuan.SmartGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF20D4F61EFD15A700C167DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3PBLWMD3ZG;
+				INFOPLIST_FILE = SmartGO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.uit.thtuan.SmartGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AF20D4F81EFD15A700C167DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3PBLWMD3ZG;
+				INFOPLIST_FILE = SmartGOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.uit.thtuan.SmartGOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartGO.app/SmartGO";
+			};
+			name = Debug;
+		};
+		AF20D4F91EFD15A700C167DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3PBLWMD3ZG;
+				INFOPLIST_FILE = SmartGOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.uit.thtuan.SmartGOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartGO.app/SmartGO";
+			};
+			name = Release;
+		};
+		AF20D4FB1EFD15A700C167DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3PBLWMD3ZG;
+				INFOPLIST_FILE = SmartGOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.uit.thtuan.SmartGOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmartGO;
+			};
+			name = Debug;
+		};
+		AF20D4FC1EFD15A700C167DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3PBLWMD3ZG;
+				INFOPLIST_FILE = SmartGOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.uit.thtuan.SmartGOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmartGO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF20D4C71EFD15A700C167DA /* Build configuration list for PBXProject "SmartGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF20D4F21EFD15A700C167DA /* Debug */,
+				AF20D4F31EFD15A700C167DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF20D4F41EFD15A700C167DA /* Build configuration list for PBXNativeTarget "SmartGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF20D4F51EFD15A700C167DA /* Debug */,
+				AF20D4F61EFD15A700C167DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF20D4F71EFD15A700C167DA /* Build configuration list for PBXNativeTarget "SmartGOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF20D4F81EFD15A700C167DA /* Debug */,
+				AF20D4F91EFD15A700C167DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF20D4FA1EFD15A700C167DA /* Build configuration list for PBXNativeTarget "SmartGOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF20D4FB1EFD15A700C167DA /* Debug */,
+				AF20D4FC1EFD15A700C167DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF20D4C41EFD15A700C167DA /* Project object */;
+}
