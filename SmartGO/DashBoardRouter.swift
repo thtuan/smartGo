@@ -7,7 +7,16 @@
 //
 
 import UIKit
+protocol DashBoardRouterNavigation {
+    
+}
 
-class DashBoardRouter: DashBoardRouterInput {
+private enum NavigationState {
+    case atSpyList,
+    atSpyDetails,
+    atSecretDetails,
+    inSignupProcess
+}
+class DashBoardRouter: DashBoardRouterNavigation {
 
 }

@@ -10,4 +10,12 @@ import UIKit
 
 class TodayVocabularyCell: UICollectionViewCell {
     
+    @IBOutlet weak var answerImage: UIImageView!
+    
+    @IBOutlet weak var lblDescribe: UILabel!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        self.layer.cornerRadius = 10
+        self.layer.borderWidth = 2
+    }
 }

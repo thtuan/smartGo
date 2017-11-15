@@ -8,6 +8,6 @@
 
 import UIKit
 
-class DashBoardModel: NSObject {
-
+class DashBoardModel {
+    var name: String = ""
 }

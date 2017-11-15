@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
+protocol QuestionPresenterInput {
+    
+}
 class QuestionPresenter: QuestionPresenterInput {
 
 }

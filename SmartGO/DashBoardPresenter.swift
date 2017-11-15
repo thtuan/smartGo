@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
+protocol DashBoardPresenterInput {
+    
+}
 class DashBoardPresenter: DashBoardPresenterInput {
 
 }

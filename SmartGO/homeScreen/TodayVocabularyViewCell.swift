@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewCell: UITableViewCell {
+class TodayVocabularyViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

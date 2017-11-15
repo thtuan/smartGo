@@ -9,11 +9,15 @@
 import UIKit
 
 class ScrollViewController: UIViewController {
+    @IBOutlet weak var scrollView: UIScrollView!
 
+    @IBOutlet weak var containerView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //self.scrollView.contentSize = CGSize(width: self.scrollView.frame.width, height: 1000)
+        
     }
 
     override func didReceiveMemoryWarning() {

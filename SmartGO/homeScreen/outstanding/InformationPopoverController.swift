@@ -9,11 +9,17 @@
 import UIKit
 
 class InformationPopoverController: UIViewController {
-
+    
+    var infor: String?
+    
+    @IBOutlet var lblInformation: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        if let information = infor{
+            lblInformation.text = information
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -7,7 +7,16 @@
 //
 
 import UIKit
-
+protocol LessonPresenterInput {
+    func getLessonList(link: String)
+}
 class LessonPresenter: LessonPresenterInput {
-
+    var view: LessonControllerInput!
+    var interactor: LessonInteractorInput!
+    
+    func getLessonList(link: String) {
+        interactor.getLessonList(link: link, dataResponse: { (dataResponse) in
+            self.view.setView(listeningList: dataResponse.data!)
+        })
+    }
 }

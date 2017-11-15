@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+struct VocabularyAnswer {
+    var imageURL: String?
+    var describe: String?
+}
+class TodayVocabularyObject {
+    var keyWord: String!
+    var speech: String!
+    var answer: [VocabularyAnswer] = []
+    var correctAnswer: Int!
+}

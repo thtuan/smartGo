@@ -7,3 +7,14 @@
 //
 
 import Foundation
+class Listening: Any {
+    
+    var name: String?
+    var urlAudio:String?
+    var urlImage:String?
+    var urlSub:String?
+    var urlRunnigSub:String?
+    var describe:String?
+    init() {
+    }
+}

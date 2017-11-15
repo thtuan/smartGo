@@ -22,14 +22,24 @@ class LevelController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        switch segue.identifier!{
+        case "basic":
+            let vc = segue.destination as! LessonController
+            vc.linkAudio = "/learn/basic/lesson/1/listen/audio"
+        case "intermediate":
+            let vc = segue.destination as! LessonController
+            vc.linkAudio = "/learn/basic/lesson/1/listen/intermediateAudio"
+        default:
+            break
+        }
     }
-    */
+    
 
 }

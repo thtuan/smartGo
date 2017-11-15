@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
+protocol HomeRouterInput {
+    
+}
 class HomeRouter: HomeRouterInput {
 
 }

@@ -7,7 +7,23 @@
 //
 
 import UIKit
+protocol LessonRouterInput {
+    func navigationTo(source: UIViewController, destination: ListeningController, listening: Listening)
+    func setLessonList(lessonList: [Listening])
+    
+}
+
 
 class LessonRouter: LessonRouterInput {
+    var listLesson: [Listening]?
+    
+    func navigationTo(source: UIViewController, destination: ListeningController, listening: Listening) {
+        destination.router.setListening(data: listening)
+//        controller.present(destination, animated: true) { 
+//        }
+    }
+    func setLessonList(lessonList: [Listening]) {
+        self.listLesson = lessonList
+    }
 
 }

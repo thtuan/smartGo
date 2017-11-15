@@ -7,12 +7,15 @@
 //
 
 import XCTest
+
 @testable import SmartGO
 
 class SmartGOTests: XCTestCase {
-    
+    var listeningController: ListeningController? = nil
     override func setUp() {
         super.setUp()
+        listeningController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "listeningcontroller") as? ListeningController
+
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     

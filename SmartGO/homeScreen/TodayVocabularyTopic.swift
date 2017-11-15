@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+enum TodayVocabularyTopicType {
+    case normal // 0
+    case hot //1
+    case new // 2
+}
+
+class TodayVocabularyTopic {
+    var name:String!
+    var describe:String!
+    var imageURL: [String] = []
+    var link: String!
+    var type: TodayVocabularyTopicType!
+}

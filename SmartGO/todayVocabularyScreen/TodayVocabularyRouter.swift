@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
+protocol TodayVocabularyRouterInput {
+    
+}
 class TodayVocabularyRouter: TodayVocabularyRouterInput {
 
 }

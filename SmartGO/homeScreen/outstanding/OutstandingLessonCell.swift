@@ -10,6 +10,16 @@ import UIKit
 
 class OutstandingLessonCell: UITableViewCell {
 
+    
+    @IBOutlet weak var imageOutstanding: UIImageView!
+    
+    @IBOutlet weak var lblNameOutstanding: UILabel!
+    
+    @IBOutlet weak var lblDescribe: UILabel!
+    
+    @IBOutlet weak var btnInfor: UIButton!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "VTKaraokeLyricPlayerView.setup() -&gt; ():VTKaraokeLyricPlayerView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HomeController.prepare(for : UIStoryboardSegue, sender : Any?) -&gt; ():HomeController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.identifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VTKaraokeLyricPlayerView.prepareToPlay() -&gt; ():VTKaraokeLyricPlayerView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HomeController.loadOutstandingData(data : [Listening]) -&gt; ():HomeController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "outstandingTableView.contentSize.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TodayVocabularyDTO.append(snapshot : DataSnapshot) -&gt; ():TodayVocabularyDTO.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "firebaseData?[&quot;answer1&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LessonController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:LessonController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lessonList[indexPath.row].urlImage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LessonController.prepare(for : UIStoryboardSegue, sender : Any?) -&gt; ():LessonController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lessonList[index.row]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ListeningPresenter.(downloadAudioFromURL(url : URL) -&gt; ()).(closure #1):ListeningPresenter.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CheckSpeakController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:CheckSpeakController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "contentCell[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ListeningController.setRunningSubURL(url : URL) -&gt; ():ListeningController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "runningSub">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeInteractor.(getTodayTopic(dataResponse : (DataResponse&lt;TodayVocabularyTopic&gt;) -&gt; ()) -&gt; ()).(closure #1):HomeInteractor.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "todayTopicDTO.listOfTodayTopic.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LessonController.scrollViewDidScroll(UIScrollView) -&gt; ():LessonController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scrollView.contentOffset.x">
+            </PersistentString>
+            <PersistentString
+               value = "self.imageTopConstraint.constant">
+            </PersistentString>
+            <PersistentString
+               value = "scrollView.contentOffset.y">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CheckSpeakController.pressButton(sender : UIButton) -&gt; ():CheckSpeakController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sender.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ListeningPresenter.(downloadAudioFromURL(url : URL, filename : String, ext : String) -&gt; ()).(closure #1):ListeningPresenter.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "newURL.path">
+            </PersistentString>
+            <PersistentString
+               value = "file.fileExists(atPath: newURL.path)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

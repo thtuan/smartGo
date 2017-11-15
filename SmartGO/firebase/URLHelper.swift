@@ -7,3 +7,12 @@
 //
 
 import Foundation
+import UIKit
+class URLHelper {
+    
+   static var urlVocabularyTopic: String {
+        get{
+            return "learn/todayVocabularyTopic"
+        }
+    }
+}

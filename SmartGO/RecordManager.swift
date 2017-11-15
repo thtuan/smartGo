@@ -8,6 +8,6 @@
 
 import UIKit
 
-class RecordManager: ListeningData {
+class RecordManager {
 
 }
