@@ -46,7 +46,7 @@ class HomeScreenTest: XCTestCase {
         homePresenter.interactor.getTodayTopic { data in
             XCTAssertNotNil(data.data,"today topic data not nil")
             XCTAssertNil(data.data?.imageURL, "image url not nil")
-//            XCTAssertNotNil(data.data?.name, "name not nil")
+            XCTAssertNotNil(data.data?.name, "name not nil")
 //            XCTAssertNotNil(data.data?.describe, "describe not nil")
 //            XCTAssertNotNil(data.data?.link, "link not nil")
         }
