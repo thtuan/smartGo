@@ -1,7 +1,0 @@
-os: osx
-osx_image: xcode9.1
-language: swift
-xcode_project: SmartGO.xcworkspace # path to your xcodeproj folder
-xcode_scheme: SmartGOTests
-podfile: Podfile
-xcode_sdk: iphonesimulator11.0
