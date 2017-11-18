@@ -4,5 +4,5 @@ xcode_project: SmartGO.xcworkspace
 xcode_scheme: SmartGOTests
 xcode_sdk: iphoneos11.1
 podfile: Podfile
-before_install: ./install_dependencies.sh
-script: xcodebuild -workspace SmartGO.xcworkspace -scheme SmartGOTests -configuration Release TEST_AFTER_BUILD=YES
+
+script: xcodebuild -workspace SmartGO.xcworkspace -scheme SmartGOTests -sdk iphonesimulator -configuration Release TEST_AFTER_BUILD=YES
