@@ -15,10 +15,7 @@ before_install:
   
 jobs:
   include:
-    - stage: Swiflint
-      script:
-        - ./Pods/SwiftLint/swiftlint --reporter junit
-        
+ 
     - stage: XCTest
       script:
         - fastlane scan -s SwiftLint-SmartGOTests
