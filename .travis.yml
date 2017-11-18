@@ -5,5 +5,3 @@ xcode_scheme: SmartGOTests
 xcode_sdk: iphonesimulator11.0
 podfile: Podfile
 
-script:
-- xcodebuild clean build test -project SmartGO.xcworkspace -scheme SmartGOTests
