@@ -12,10 +12,6 @@ before_install:
   - brew update
   - brew install swiftlint || true
   - gem install fastlane --no-ri --no-rdoc --no-document
-  
-jobs:
-  include:
- 
-    - stage: XCTest
-      script:
-        - fastlane scan -s SwiftLint-SmartGOTests
+
+script:
+  - fastlane scan -s SwiftLint-SmartGOTests
