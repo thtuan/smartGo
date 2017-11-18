@@ -4,5 +4,10 @@ xcode_project: SmartGO.xcworkspace
 xcode_scheme: SmartGOTests
 xcode_sdk: iphoneos11.1
 podfile: Podfile
+before_install:
+  - rvm install ruby-2.2.2
+  - gem install cocoapods
+  - gem install xcpretty -N
+  - brew update
 
 script: xcodebuild -workspace SmartGO.xcworkspace -scheme SmartGOTests -sdk iphonesimulator -configuration Release TEST_AFTER_BUILD=YES
