@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-SmartGO-SmartGOTests.xcscheme_^#shared#^_</key>
+		<key>Pods-SmartGO-SmartGOTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,6 +27,8 @@
 		</dict>
 		<key>SmartGOTests.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>

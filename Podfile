@@ -27,4 +27,5 @@ target 'SmartGO' do
     pod 'NVActivityIndicatorView'
     pod 'GKFadeNavigationController'
     pod 'CircleProgressView', '~> 1.0'
+    pod 'SwiftLint'
 end
