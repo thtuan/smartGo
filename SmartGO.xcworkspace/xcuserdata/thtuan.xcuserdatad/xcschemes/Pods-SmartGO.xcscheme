@@ -17,7 +17,7 @@
                BlueprintIdentifier = "A72B23F4A5A2E0BED16E03BDFBBA120F"
                BuildableName = "Pods_SmartGO.framework"
                BlueprintName = "Pods-SmartGO"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,7 +50,7 @@
             BlueprintIdentifier = "A72B23F4A5A2E0BED16E03BDFBBA120F"
             BuildableName = "Pods_SmartGO.framework"
             BlueprintName = "Pods-SmartGO"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
