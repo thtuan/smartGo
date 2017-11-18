@@ -1,6 +1,9 @@
 language: swift
 osx_image: xcode9.1
 xcode_project: SmartGO.xcworkspace
-xcode_scheme: SmartGO
+xcode_scheme: SmartGOTests
 xcode_sdk: iphonesimulator11.0
 podfile: Podfile
+
+script:
+- xcodebuild clean build test -project SmartGO.xcworkspace -scheme SmartGOTests
